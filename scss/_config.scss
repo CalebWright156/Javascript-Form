@@ -1,0 +1,19 @@
+$primary: #1C3738;
+$secondary: #FFF1D0;
+$accent: #6b6b6b;
+$error: #ff2d26;
+$lighten: lighten($secondary, 30%);
+$progress-height: 10px;
+$main-font: 'Heebo', sans-serif;
+
+%set-button{
+    position: absolute;
+    color: $accent;
+    z-index: 2;
+    float: right;
+    cursor: pointer;
+
+    &:hover {
+        color: $primary;
+    }
+}
